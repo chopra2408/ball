@@ -5,7 +5,7 @@ from matplotlib.animation import FuncAnimation
 # ----------------------
 # Physical and simulation parameters
 R = 10                    # Radius of the circular container
-g = 100                  # Gravitational acceleration (m/s^2)
+g = 10                    # Gravitational acceleration (m/s^2)
 dt = 0.02                 # Main simulation time step
 dt_small = 0.0005         # Time step used for collision time refinement
 
